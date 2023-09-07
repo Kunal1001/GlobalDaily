@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Global Daily</string>
+    <string name="default_web_client_id">206903921112-gtivpqidjkb12e106q1gk5r480914kjr.apps.googleusercontent.com</string>
+    <string name="url">"https://newsapi.org/v2/top-headlines?sources=bbc-news&amp;apiKey=e4e959f44d154514963aa96ea00cf576"</string>
+</resources>

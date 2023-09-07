@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategorySelect"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/ind"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FEC901"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Indian Headlines"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="98dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/business"
+        app:layout_constraintTop_toBottomOf="@id/textView3"/>
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FEC901"
+        android:text="Sports News"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="428dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/science"
+        app:layout_constraintTop_toBottomOf="@id/tech"/>
+
+    <Button
+        android:id="@+id/business"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FEC901"
+        android:text="Business News"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tech"
+        app:layout_constraintTop_toBottomOf="@id/ind"/>
+
+    <Button
+        android:id="@+id/tech"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FEC901"
+        android:text="Technology"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="318dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/sports"
+        app:layout_constraintTop_toBottomOf="@id/business"/>
+
+    <Button
+        android:id="@+id/science"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FEC901"
+        android:text="Science"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="538dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/sports"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Select News Category"
+        android:textAlignment="center"
+        android:textColor="#FEC901"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/ind"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
